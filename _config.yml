@@ -1,0 +1,45 @@
+name: Caroline Jeffra
+author: Caroline Jeffra
+description: Another dev blog
+avatar: https://avatars.githubusercontent.com/u/138127305
+
+footer-links:
+  email: caroline.jeffra@gmail.com
+  github: caroline-jeffra
+  linkedin: cjeffra
+  rss: rss
+
+url: https://caroline-jeffra.github.io
+enforce_ssl: https://caroline-jeffra.github.io
+baseurl: ""
+
+permalink: /:title/
+
+version: v1.2.0
+
+kramdown:
+  input: GFM
+  syntax_highlighter: rouge
+  syntax_highlighter_opts:
+    css_class: 'highlight'
+
+sass:
+  style: :expanded
+
+plugins:
+  - jekyll-sitemap
+  - jekyll-feed
+  - jekyll-seo-tag
+  - jekyll-paginate
+
+include: ['_pages']
+
+paginate: 6
+paginate_path: /page:num/
+
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - LICENSE
+  - README.md
+  - CNAME

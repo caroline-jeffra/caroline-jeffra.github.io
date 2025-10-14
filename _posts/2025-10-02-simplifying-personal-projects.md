@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Simplifying Personal Projects
-categories: [thoughts, Jekyll]
+categories: [Thoughts, Jekyll]
 ---
 
 One of the things I'm most guilty of is getting lost in the process of finding the 'perfect' answer to an issue. *What's the best, most efficient solution to the problem I'm having?*

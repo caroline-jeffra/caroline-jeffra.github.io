@@ -7,6 +7,9 @@ categories:
   - CI/CD
   - GitLab
 ---
+
+With fewer eyes on a project, I used Playwright to implement navigation and visual tests on a project to ensure problems don't sneak in and stay for too long. 
+
 ## Motivation
 
 Recently there were a few important changes made to the project I spend most of my time on. The first was the departure of our dedicated tester, who was great at finding new issues and catching longstanding issues with performance and functionality. We have also reduced developer capacity now, which means fewer eyes on the pages we're serving and a bigger chance of things slipping through the cracks. We should have had end-to-end testing implemented earlier, but it is better late than never. We selected [Playwright](https://playwright.dev/) for this purpose. 
